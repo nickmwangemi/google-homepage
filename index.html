@@ -10,7 +10,7 @@
     <section>
         <!-- Header -->
         <header>
-            <nav>
+            <nav class="navbar">
                 <div>
                     <a href="#">About</a>
                     <a href="#">Store</a>
@@ -30,14 +30,18 @@
             <section>
                 <div>
                     <div>
-                        <img src="img/" alt="Google Logo">
+                        <img class="logo" src="img/" alt="Google Logo">
                     </div>
-                    <div>
-                        <img src="img/" alt="Google Search Icon">
+
+                    <!-- Search Box -->
+                    <div class="search-box">
+                        <img id="search-icon" src="img/" alt="Google Search Icon">
                         <input type="text">
-                        <img src="img/" alt="Search by Voice">
+                        <img id="microphone-icon" src="img/" alt="Search by Voice">
                     </div>
-                    <div>
+                    <!-- End of Search Box -->
+
+                    <div class="search-box-buttons">
                         <button>Google Search</button>
                         <button>I'm Feeling Lucky</button>
                     </div>
@@ -47,7 +51,7 @@
         <!-- End of Main Content -->
 
         <!-- Footer -->
-        <footer>
+        <footer id="footer">
             <div>
                 <a href="#">Advertising</a>
                 <a href="#">Business</a>
