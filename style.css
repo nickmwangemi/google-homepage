@@ -67,6 +67,23 @@ a:hover {
 	flex-direction: row;
 }
 
+/* Image Styling */
+#logo {
+	width: auto;
+	height: auto;
+	padding: 170px 0 25px 0;
+}
+#search-icon {
+	width: 14.8px;
+	cursor: pointer;
+}
+
+#microphone-icon {
+	width: 24px;
+	cursor: pointer;
+}
+/* End of Image Styling */
+
 /* End of Main Content Styling */
 
 /* Footer Styling */
